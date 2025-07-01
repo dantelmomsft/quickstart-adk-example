@@ -21,18 +21,18 @@
     <dependency>
       <groupId>com.google.adk</groupId>
       <artifactId>google-adk</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>0.2.0</version>
     </dependency>
     <!-- The ADK dev web UI to debug your agent -->
     <dependency>
       <groupId>com.google.adk</groupId>
       <artifactId>google-adk-dev</artifactId>
-      <version>0.1.0</version>
+      <version>0.2.0</version>
     </dependency>
      <dependency>
       <groupId>com.google.adk</groupId>
       <artifactId>google-adk-contrib-langchain4j</artifactId>
-      <version>0.1.1-SNAPSHOT</version>
+      <version>0.2.0</version>
     </dependency>
     <dependency>
 			<groupId>dev.langchain4j</groupId>

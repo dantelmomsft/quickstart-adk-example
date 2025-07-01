@@ -34,11 +34,12 @@ public class MultiToolAgent {
       /*   ChatModel langchain4jModel =
             OllamaLangchain4J.buildChatModel(); */
 
-     /* ChatModel langchain4jModel =
-            AzureOpenAILangchain4J.buildChatModel();*/
+      ChatModel langchain4jModel =
+            AzureOpenAILangchain4J.buildChatModel();
 
-        ChatModel langchain4jModel =
+      /*   ChatModel langchain4jModel =
             OpenAILangchain4j.buildChatModel();
+        */
         
         return LlmAgent.builder()
             .name(NAME)
